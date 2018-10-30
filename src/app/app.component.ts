@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'pipes';
+  porcentaje = 3.3;
+  fecha = new Date();
+  segundos = 306;
+  dinero = -45;
 }
