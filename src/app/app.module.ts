@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { MinutesPipe } from './minutes.pipe';
+import { CurrencyFinancePipe } from './currency-finance.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
-    MinutesPipe
+    MinutesPipe,
+    CurrencyFinancePipe
   ],
   imports: [
     BrowserModule
